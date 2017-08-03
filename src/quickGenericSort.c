@@ -19,7 +19,7 @@ int numcomp(void *, void *);
 int charcomp(void *, void *);
 void stampaj(int *, int);
 
-int main()
+int main(int argc, char *argv[])
 {
     int N;
     int niz[] = {r, r, r, r, r, r, r, -r, r, r, -r, r, -r, r, r, -r, -r, r, r, r, -r, r, r, r, r, r, r, r, r, r, r, r};
